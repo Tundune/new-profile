@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.header-home {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 4;
+    color: #fff;
+    font-weight: bold;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+    align-items: center;
+}
+.header-home img {
+    width: 300px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.header-home span {
+    font-size: 30px;
+}
+.cover-all {
+    background: url(/img/modest-1100-x-688-gtc0amftqezqow1p.jpg);
+    position: relative;
+    background-repeat: round;
+    height: 100vh;
+}
+.cover-all::before {
+    content: '';
+    background: #cccccc54;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    height: 100%;
+}
+.center {
+    max-width: 1100px;
+    margin: auto;
+    background: url(/img/modest-1100-x-688-gtc0amftqezqow1p.jpg);
+    height: 80vh;
+    display: flex;
+    position: relative;
+}
+.right-body {
+    width: 50%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 76%;
+    color: #fff;
+}
+.right-body p {
+    font-size: 40px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: "Rubik Wet Paint", serif;
+}
+.left-body {
+    width: 50%;
+    position: relative;
+}
+.left-body::before {
+    width: 100%;
+    content: '';
+    position: absolute;
+    background: #0404047a;
+    height: 100%;
+    backdrop-filter: blur(5px);
+}
+.sign-up {
+    position: relative;
+    z-index: 3;
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.sign-up>p {
+    font-size: 30px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.cover-signup p {
+    color: #e5e5e5d5;
+}
+.cover-signup input {
+    border: none;
+    width: calc(100%);
+    background: inherit;
+    color: #fff;
+}
+.icon img {
+    width: 30px;
+}
+.icon {
+    display: flex;
+    gap: 10px;
+}
+.under-right h1{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+.under-right span{
+    font-weight: 100;
+    color: #e5e5e5d5;
+}
+.under-right {
+    display: flex;
+    flex-direction: column;
+    gap:  20px;
+}
+.user img {
+    width: 20px;
+}
+.input {
+    display: flex;
+    border: none;
+    border-bottom: 2px solid #939393d5;
+}
+.statement {
+    padding: 40px 0;
+    color: #939393d5;
+}
+.statement a {
+    color: #939393d5;
+    font-weight: bold;
+}
+.button img {
+    width: 15px;
+}
+.button button{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 30%;
+    justify-content: space-between;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+}
+.button a {
+    color: #939393d5;
+    font-weight: bold;
+}
+.button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    padding: 35px 0;
+}
